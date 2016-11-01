@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE654FE1-C2CE-4775-8670-D646A0CBE99F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectEuler</RootNamespace>
+    <AssemblyName>ProjectEuler</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Problems\1-9\Problem1.cs" />
+    <Compile Include="Problems\1-9\Problem2.cs" />
+    <Compile Include="Problems\20-29\Problem22.cs" />
+    <Compile Include="Problems\20-29\Problem27.cs" />
+    <Compile Include="Problems\30-39\Problem31.cs" />
+    <Compile Include="Problems\30-39\Problem32.cs" />
+    <Compile Include="Problems\30-39\Problem33.cs" />
+    <Compile Include="Problems\30-39\Problem34.cs" />
+    <Compile Include="Problems\30-39\Problem35.cs" />
+    <Compile Include="Problems\30-39\Problem37.cs" />
+    <Compile Include="Problems\30-39\Problem38.cs" />
+    <Compile Include="Problems\30-39\Problem39.cs" />
+    <Compile Include="Problems\40-49\Problem42.cs" />
+    <Compile Include="Problems\40-49\Problem43.cs" />
+    <Compile Include="Problems\40-49\Problem44.cs" />
+    <Compile Include="Problems\40-49\Problem45.cs" />
+    <Compile Include="Problems\40-49\Problem46.cs" />
+    <Compile Include="Problems\40-49\Problem47.cs" />
+    <Compile Include="Problems\40-49\Problem48.cs" />
+    <Compile Include="Problems\40-49\Problem49.cs" />
+    <Compile Include="Problems\50-59\Problem50.cs" />
+    <Compile Include="Problems\50-59\Problem51.cs" />
+    <Compile Include="Problems\50-59\Problem52.cs" />
+    <Compile Include="Problems\50-59\Problem53.cs" />
+    <Compile Include="Problems\50-59\Problem54.cs" />
+    <Compile Include="Problems\50-59\Problem55.cs" />
+    <Compile Include="Problems\50-59\Problem56.cs" />
+    <Compile Include="Problems\50-59\Problem57.cs" />
+    <Compile Include="Problems\50-59\Problem58.cs" />
+    <Compile Include="Problems\50-59\Problem59.cs" />
+    <Compile Include="Problems\Problem100.cs" />
+    <Compile Include="Problems\Problem112.cs" />
+    <Compile Include="Problems\1-9\Problem3.cs" />
+    <Compile Include="Problems\60-69\Problem60.cs" />
+    <Compile Include="Problems\60-69\Problem61.cs" />
+    <Compile Include="Problems\60-69\Problem62.cs" />
+    <Compile Include="Problems\60-69\Problem63.cs" />
+    <Compile Include="Problems\60-69\Problem64.cs" />
+    <Compile Include="Problems\60-69\Problem65.cs" />
+    <Compile Include="Problems\60-69\Problem66.cs" />
+    <Compile Include="Problems\60-69\Problem68.cs" />
+    <Compile Include="Problems\60-69\Problem69.cs" />
+    <Compile Include="Problems\70-79\Problem70.cs" />
+    <Compile Include="Problems\70-79\Problem71.cs" />
+    <Compile Include="Problems\70-79\Problem72.cs" />
+    <Compile Include="Problems\70-79\Problem73.cs" />
+    <Compile Include="Problems\70-79\Problem74.cs" />
+    <Compile Include="Problems\70-79\Problem75.cs" />
+    <Compile Include="Problems\70-79\Problem76.cs" />
+    <Compile Include="Problems\70-79\Problem77.cs" />
+    <Compile Include="Problems\70-79\Problem78.cs" />
+    <Compile Include="Problems\70-79\Problem79.cs" />
+    <Compile Include="Problems\Problem80.cs" />
+    <Compile Include="Problems\Problem85.cs" />
+    <Compile Include="Problems\Problem87.cs" />
+    <Compile Include="Problems\Problem92.cs" />
+    <Compile Include="Problems\Problem96.cs" />
+    <Compile Include="Problems\Problem97.cs" />
+    <Compile Include="Problems\Problem98.cs" />
+    <Compile Include="Problems\Problem99.cs" />
+    <Compile Include="ProjectEuler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Alphabet.cs" />
+    <Compile Include="Utils\BigIntegerUtils.cs" />
+    <Compile Include="Utils\Cards\Card.cs" />
+    <Compile Include="Utils\Cards\PokerHand.cs" />
+    <Compile Include="Utils\Combinatorics.cs" />
+    <Compile Include="Utils\FileUtils.cs" />
+    <Compile Include="Utils\Fractions\BigIntegerFraction.cs" />
+    <Compile Include="Utils\Fractions\Fraction.cs" />
+    <Compile Include="Utils\DigitUtils.cs" />
+    <Compile Include="Utils\Fractions\FractionUtils.cs" />
+    <Compile Include="Utils\MiscUtils.cs" />
+    <Compile Include="Utils\Monopoly\MonopolyBoard.cs" />
+    <Compile Include="Utils\PrimeUtils.cs" />
+    <Compile Include="Utils\QuadraticUtils.cs" />
+    <Compile Include="Utils\SequenceUtils.cs" />
+    <Compile Include="Utils\SquareUtils.cs" />
+    <Compile Include="Utils\StringUtils.cs" />
+    <Compile Include="Utils\Sudoku\Puzzle.cs" />
+    <Compile Include="Utils\TriangleUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Problems\10-19\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
