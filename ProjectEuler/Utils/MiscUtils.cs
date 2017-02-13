@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Numerics;
 using System.Text;
@@ -135,6 +136,11 @@ namespace ProjectEuler.Utils
             } while (left != 0);
 
             return right;
+        }
+
+        public static double DistanceFormula(Point a, Point b)
+        {
+            return Math.Sqrt(Math.Pow(a.X - b.X, 2) + Math.Pow(a.Y - b.Y, 2));
         }
     }
 }
