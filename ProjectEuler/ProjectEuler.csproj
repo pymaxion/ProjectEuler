@@ -99,6 +99,7 @@
     <Compile Include="Problems\Problem85.cs" />
     <Compile Include="Problems\Problem87.cs" />
     <Compile Include="Problems\Problem91.cs" />
+    <Compile Include="Problems\Problem89.cs" />
     <Compile Include="Problems\ProblemTemplate.cs" />
     <Compile Include="Problems\Problem92.cs" />
     <Compile Include="Problems\Problem96.cs" />
@@ -121,6 +122,7 @@
     <Compile Include="Utils\Monopoly\MonopolyBoard.cs" />
     <Compile Include="Utils\PrimeUtils.cs" />
     <Compile Include="Utils\QuadraticUtils.cs" />
+    <Compile Include="Utils\RomanNumerals\RomanNumeral.cs" />
     <Compile Include="Utils\SequenceUtils.cs" />
     <Compile Include="Utils\SquareUtils.cs" />
     <Compile Include="Utils\StringUtils.cs" />
