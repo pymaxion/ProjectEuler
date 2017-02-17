@@ -142,5 +142,10 @@ namespace ProjectEuler.Utils
         {
             return Math.Sqrt(Math.Pow(a.X - b.X, 2) + Math.Pow(a.Y - b.Y, 2));
         }
+
+        public static bool IsInteger(double d)
+        {
+            return Math.Abs(d % 1) <= 0.0000000001;
+        }
     }
 }
