@@ -147,5 +147,10 @@ namespace ProjectEuler.Utils
         {
             return Math.Abs(d % 1) <= 0.0000000001;
         }
+
+        public static bool AggressiveIsInteger(double d)
+        {
+            return Math.Abs(d % 1.0) <= Double.Epsilon * 100;
+        }
     }
 }
