@@ -17,7 +17,7 @@ namespace ProjectEuler
 			sw.Start();
 
 			// ---------------------------------------------------
-			solutionString = Problem84.Solve();
+			solutionString = Problem81.Solve();
 			// ---------------------------------------------------
 
 			sw.Stop();
