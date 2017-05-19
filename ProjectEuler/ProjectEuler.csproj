@@ -175,6 +175,7 @@
   <ItemGroup>
     <Compile Include="Problems\1-9\Problem1.cs" />
     <Compile Include="Problems\1-9\Problem2.cs" />
+    <Compile Include="Problems\1-9\Problem5.cs" />
     <Compile Include="Problems\20-29\Problem22.cs" />
     <Compile Include="Problems\20-29\Problem27.cs" />
     <Compile Include="Problems\30-39\Problem31.cs" />
